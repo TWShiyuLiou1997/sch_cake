@@ -58,6 +58,18 @@ Today, we have successfully ported his work to the **TP-Link Archer C2**.
 
 ---
 
+### ⭐ Light up the Dark: A Final Tribute
+
+**"The darker the night, the brighter the light."**
+
+Did you know? Dave's surname **"Täht"** literally means **"Star"** in Estonian.
+
+If this project helps you, or if you simply want to honor his legacy, please **Light up the "Star"** in the top-right corner of this repository.
+
+Let's keep his Star shining bright in the open-source world, guiding packets through the dark.
+
+---
+
 We are fulfilling a specific wish he made 5 years ago on Reddit:
 
 ### ❝ Help port the code to more chipsets. ❞
@@ -84,7 +96,7 @@ Dave turned down numerous lucrative contracts to keep his code **Free and Open S
 We firmly support the "Right to Repair" and extending the life of legacy hardware.
 Between our **Legacy (Kernel 3.4)** and **Performance (Kernel 4.4)** branches, we support **over 100+ specific hardware targets**.
 
-*(Note: Distinct hardware revisions, e.g., V1 vs V4, count as separate build targets due to hardware differences.)*
+*Note: Distinct hardware revisions (e.g., V1 vs V4) count as separate build targets due to hardware differences.*
 
 ### 🟢 Kernel 3.4: The "Legacy Savior" List
 *Optimized for MT7620/MT7621 devices. Bringing CAKE to the masses.*
@@ -118,21 +130,11 @@ Between our **Legacy (Kernel 3.4)** and **Performance (Kernel 4.4)** branches, w
 | **Netgear** | **NETGEAR-BZV** (R6800/R6700v2 series) |
 | **Others** | MR2600, XY-C1 |
 
-> **👉 Choose Your Weapon (Repository Guide):**
->
-> * **For Kernel 3.4 Devices (The list above 🟢):**
->     * **Use THIS Repository:** [**Padavan Builder Workflow (3.4)**](https://github.com/TWShiyuLiou1997/padavan-builder-workflow)
->     * *(This automated workflow builds firmware for all the Legacy devices listed.)*
->
-> * **For Kernel 4.4 Devices (The list above 🔵):**
->     * **Use the 4.4 Repository:** [**Padavan-4.4 (Performance Edition)**](https://github.com/TWShiyuLiou1997/padavan-4.4)
-
 ---
 
 ## 🌐 Multi-Language Support
 
 We believe in a borderless internet. The firmware now supports **14 Languages** out of the box!
-*(Select your preferred language in the `language_select` menu in GitHub Actions.)*
 
 * **English_Only** (Default)
 * **CN (繁體中文)** - Traditional Chinese
@@ -148,6 +150,22 @@ We believe in a borderless internet. The firmware now supports **14 Languages** 
 * **PL (Polski)** - Polish
 * **SV (Svensk)** - Swedish
 * **UK (Українська)** - Ukrainian
+
+---
+
+## 🛠️ Build Your Own (GitHub Actions)
+
+This repository contains the **Source Code**. To build the firmware easily using GitHub Actions, please visit our dedicated Builder repositories:
+
+> **👉 Choose Your Weapon (Repository Guide):**
+>
+> * **For Kernel 3.4 Devices (The list above 🟢):**
+>      * **Target:** [**Padavan Builder Workflow (3.4)**](https://github.com/TWShiyuLiou1997/padavan-builder-workflow)
+>      * **Action:** Fork **THAT** repository, go to **Actions**, and run the workflow to build for Legacy devices.
+>
+> * **For Kernel 4.4 Devices (The list above 🔵):**
+>      * **Target:** [**Padavan-4.4 (Performance Edition)**](https://github.com/TWShiyuLiou1997/padavan-4.4)
+>      * **Action:** Fork **THAT** repository, go to **Actions**, and run the workflow to build for High-Performance devices.
 
 ---
 
@@ -171,9 +189,7 @@ If you are building Padavan firmware, simply replace the `sch_cake` directory in
 ### **「永遠保持開放且開源的精神」**
 **(Forever maintaining an open and open-source spirit)**
 
-Dave turned down numerous lucrative contracts to keep his code **Free and Open Source**. He valued global impact over prestige. Because of him, millions of devices—from Starlink satellites to rural ISP routers—deliver smoother connectivity.
-
-This repo exists to keep that spirit alive by ensuring the code remains accessible for "Do-It-Yourself" router enthusiasts and custom firmware builders.
+This repo exists to keep Dave's spirit alive by ensuring the code remains accessible for "Do-It-Yourself" router enthusiasts and custom firmware builders. We believe in the power of the community to sustain what industry giants often abandon.
 
 ---
 
@@ -201,38 +217,11 @@ This repo exists to keep that spirit alive by ensuring the code remains accessib
 
 ## ℹ️ About CAKE (Original README)
 
-*The following is the original project description:*
-
 ### Common Applications Kept Enhanced (CAKE) scheduler
 
 This is the out-of-tree version of **[CAKE](https://www.bufferbloat.net/projects/codel/wiki/Cake/)**, the Linux qdisc that combines scheduler and traffic shaper for effective bufferbloat mitigation.
 
-**Note:** `sch_cake` is part of the upstream Linux kernel since **kernel version 4.19**, so this repository exists primarily as a resource for building the qdisc with older versions of the kernel (like 3.4 and 4.4 provided in this fork).
-
-If you're already on kernel 4.19 or newer, you can just load CAKE with `tc` and the kernel shipped by your distribution!
+**Note:** `sch_cake` is part of the upstream Linux kernel since **kernel version 4.19**. This repository exists primarily as a resource for building the qdisc with older versions of the kernel (like 3.4 and 4.4).
 
 ---
-
 *Forked from [dtaht/sch_cake](https://github.com/dtaht/sch_cake)*
-
-*Please see the original part of readme below!*
-
----
-
-# Original README
-
-# README #
-
-#### Please see the original part of readme below!
-
----
-
-* Common Applications Kept Enhanced (CAKE) scheduler
-
-This is the out-of-tree version of [[https://www.bufferbloat.net/projects/codel/wiki/Cake/][CAKE]], the Linux qdisc that combines scheduler
-and traffic shaper for effective bufferbloat mitigation.
-
-Note that sch_cake is part of the upstream Linux kernel since kernel version
-4.19, so this repository exists only as a resource for building the qdisc with
-older versions of the kernel. If you're already on kernel 4.19 or newer, you can
-just load CAKE with =tc= and the kernel shipped by your distribution!
