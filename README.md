@@ -31,6 +31,33 @@ Just like fireworks are most mesmerizing in the darkest night, Dave shone bright
 
 ---
 
+### 🏹 The "Archer" Coincidence: A Destiny Revealed
+
+While digging through Dave's old blog posts and presentations, I found a chilling coincidence that proves this project was meant to be.
+
+**1. The "Archer" & The Arrow**
+The router series I ported this to is named **"Archer"** (TP-Link). An Archer shoots an **Arrow**.
+This perfectly matches our tribute slogan: **"一支穿雲箭 (One Cloud-Piercing Arrow)"**.
+
+**2. The C7 Origin**
+In the original 2015 "Cake" presentation at Battlemesh v8, Dave and Jonathan Morton used a **TP-Link Archer C7** to demonstrate that CAKE could shape traffic at 115Mbps while HTB failed.
+> *"HTB can’t shape at 115Mbps. Cake can."* — *Battlemesh v8 (2015)*
+
+**3. The C2 Connection**
+In his 2016 blog post *"Finally... the real net-next 4.8 fq_codel results"*, Dave wrote:
+> *"I pulled the **odroid C2** out, and made it the test driver..."*
+Today, we have successfully ported his work to the **TP-Link Archer C2**.
+
+**Dave was the Archer.**
+**The Code is the Arrow.**
+**And we are the target: A bufferbloat-free world.**
+
+*Sources:*
+* [Cake Presentation (Battlemesh v8, 2015)](https://www.bufferbloat.net/projects/attachments/150817135028_cake-battlemesh-v8.pdf)
+* [CeroWrt Blog (2016)](https://blog.cerowrt.org/post/real_results/)
+
+---
+
 We are fulfilling a specific wish he made 5 years ago on Reddit:
 
 ### ❝ Help port the code to more chipsets. ❞
