@@ -79,6 +79,78 @@ Dave turned down numerous lucrative contracts to keep his code **Free and Open S
 
 ---
 
+## 🚀 Supported Device Matrix (100+ Models)
+
+We firmly support the "Right to Repair" and extending the life of legacy hardware.
+Between our **Legacy (Kernel 3.4)** and **Performance (Kernel 4.4)** branches, we support **over 100+ specific hardware targets**.
+
+*(Note: Distinct hardware revisions, e.g., V1 vs V4, count as separate build targets due to hardware differences.)*
+
+### 🟢 Kernel 3.4: The "Legacy Savior" List
+*Optimized for MT7620/MT7621 devices. Bringing CAKE to the masses.*
+
+| Brand | Supported Models (Select in Workflow) |
+| :--- | :--- |
+| **TP-Link** | **Archer C2 (V1)**, C20 (V1/V4/V5), C5 (V4), C50 (V1/V3/V4), EC220-G5 (V2), MR200 (V1), MR3020 (V3), MR3420 (V5), WDR7300 (V5), WR840N (V4/V5/V6/RU), WR841N (V13/V14), WR842N (V5), WR845N (V3/V4) |
+| **Xiaomi** | MI-3, MI-3C, MI-4 (A/C/SPI), MI-4A (100M), MI-MINI, MI-NANO, MI-R3G (v1/v2/SPI), MI-R3P (Pro), R2100 (AC2100), RM-AC2100 |
+| **ASUS** | RT-AC1200 (GU/HP), RT-AC51U, RT-AC54U, RT-N10+, RT-N11P (B1), RT-N12+, RT-N13U (B1), RT-N14U, **RT-N56U (A1/B1/GE2)**, RP-AC56 |
+| **ZyXEL** | Keenetic Series: **Giga III**, **Ultra II**, Extra (I/II), Lite (I/II/III/3B), Omni (I/II), Start II, Viva, 4G III (B) |
+| **D-Link** | DIR-300 (B1/B7), DIR-320 (B1), DIR-620 (A1/D1), DIR-860L, **DIR-882** |
+| **Newifi** | Newifi D1, Newifi D2, Newifi Mini, Newifi Y1S |
+| **GL.iNet** | GL-MT300A, GL-MT300N (V1/V2) |
+| **Phicomm** | K2P (PSG1218), 256PSG1218 |
+| **ZBT** | WE1326, WE1626, WE826-T2, WG3526 (-32), WR8305RT |
+| **Others** | **Ubiquiti** ER-X, **Linksys** EA-8100, **Belkin** F9K1103, **Totolink** A3004NS, **HiWiFi** HC5661A, **Youku** L1/L1C, **ZTE** E8820S |
+| **OEM/Misc** | 5K-W20, A5-V11, ALR-U270, MQ-WITI, Nexx WT3020 (A/H), Samsung SWR1100, Sercomm (S1010/SmartBox), SNR (MD1/ME1/W4N), Tuoshi TS7620N, Unielec U7621, Wall-AP, Youhua WR1200JS |
+
+---
+
+### 🔵 Kernel 4.4: The "High Performance" List
+*Targeting modern MT7621/MT7615 devices. Legends only.*
+
+| Brand | Supported Models (Select in Workflow) |
+| :--- | :--- |
+| **Phicomm** | **K2P** (The Legend), K2P-NANO, K2P-USB |
+| **Xiaomi / Redmi** | **MI-R3P (Pro)**, MI-R3G, **RM2100 (Redmi AC2100)**, CR660x |
+| **D-Link** | **DIR-878**, **DIR-882** (EXO AC2600) |
+| **Newifi** | **NEWIFI3** (Newifi D2) |
+| **JCG** | JCG-AC860M, JCG-836PRO, JCG-Q20, JCG-Y2 |
+| **Netgear** | **NETGEAR-BZV** (R6800/R6700v2 series) |
+| **Others** | MR2600, XY-C1 |
+
+> **👉 Choose Your Weapon (Repository Guide):**
+>
+> * **For Kernel 3.4 Devices (The list above 🟢):**
+>     * **Use THIS Repository:** [**Padavan Builder Workflow (3.4)**](https://github.com/TWShiyuLiou1997/padavan-builder-workflow)
+>     * *(This automated workflow builds firmware for all the Legacy devices listed.)*
+>
+> * **For Kernel 4.4 Devices (The list above 🔵):**
+>     * **Use the 4.4 Repository:** [**Padavan-4.4 (Performance Edition)**](https://github.com/TWShiyuLiou1997/padavan-4.4)
+
+---
+
+## 🌐 Multi-Language Support
+
+We believe in a borderless internet. The firmware now supports **14 Languages** out of the box!
+*(Select your preferred language in the `language_select` menu in GitHub Actions.)*
+
+* **English_Only** (Default)
+* **CN (繁體中文)** - Traditional Chinese
+* **RU (Pусский)** - Russian
+* **ES (Español)** - Spanish
+* **BR (Brazil)** - Portuguese
+* **CZ (Česky)** - Czech
+* **DA (Dansk)** - Danish
+* **DE (Deutsch)** - German
+* **FI (Finsk)** - Finnish
+* **FR (Français)** - French
+* **NO (Norsk)** - Norwegian
+* **PL (Polski)** - Polish
+* **SV (Svensk)** - Swedish
+* **UK (Українська)** - Ukrainian
+
+---
+
 ## 📂 Repository Contents (Padavan Port)
 
 This fork contains specific backports of CAKE for **MediaTek (MTK)** based routers running older Linux kernels (Padavan Firmware).
