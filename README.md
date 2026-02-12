@@ -58,6 +58,27 @@ Today, we have successfully ported his work to the **TP-Link Archer C2**.
 
 ---
 
+### 🧩 The "Missing Piece": The MT76 Prophecy
+
+In his famous 2016 blog post *["Hardware from hell"](http://the-edge.taht.net/post/hardware_from_hell/)*, Dave expressed his frustration with locked hardware. But amidst the chaos, he had his eyes on a specific target—the **MediaTek (mt76)** platform.
+
+> "I tried to get a **mt76 box** from alibaba - sold out - **this is the new hotness** in the OpenWrt 802.11ac world... A turris omnia will probably become my next eval platform **unless I can get a mt76 up and running**."
+> — Dave Täht (2016)
+
+**The Tragedy:** He couldn't get one. It was sold out. He was forced to struggle with older devices.
+**The Fulfillment:** This repository is dedicated entirely to **MT7620/MT7621** devices.
+
+**We finally got that "mt76 box" up and running for you, Dave.**
+The "new hotness" you foresaw is now the stable foundation carrying your legacy.
+
+**🇹🇼：遲來的約定**
+當他在 2016 年苦尋不到一台 MT76 路由器時，也許沒想到，幾年後會有成千上萬台 MT76 設備，運行著他的 CAKE 演算法，在網路上奔馳。
+**Dave，這台 MT76，我們幫你跑起來了！**
+
+*Source:* [Hardware from hell (Dave Täht, 2016)](http://the-edge.taht.net/post/hardware_from_hell/)
+
+---
+
 ### ⭐ Light up the Dark: A Final Tribute
 
 **"The darker the night, the brighter the light."**
