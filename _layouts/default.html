@@ -7,7 +7,7 @@
     
     <title>{{ site.title }} | TW641 開源路由器韌體中心</title>
 
-    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+    <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' }}">
 
     <meta name="google-site-verification" content="-vHIVPvpGauTz39uKyANi2BPSfJwrsrxGVMagKliEgE" />
     <meta name="google-site-verification" content="OV7xROgDy7S6bx5Mrsf5hefCfoKkRYgE0F9raeoZ8qc" />
@@ -18,14 +18,13 @@
     <meta name="robots" content="index, follow, max-image-preview:large">
 
     <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ site.url }}/sitemap.xml">
-    
     <link rel="icon" href="https://github.com/TW641.png" type="image/png">
 
     <meta name="theme-color" content="#f6f8fa" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#0d1117" media="(prefers-color-scheme: dark)">
 
     <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+    <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' }}">
     <meta property="og:title" content="{{ site.title }} | TW641 開源路由器韌體中心">
     <meta property="og:description" content="{{ site.description }}">
     <meta property="og:image" content="{{ site.url }}/Padavan-CAKE/images/CAKE.png">
@@ -41,8 +40,8 @@
         "@graph": [
             {
                 "@type": "WebSite",
-                "@id": "{{ site.url }}/#website",
-                "url": "{{ site.url }}/",
+                "@id": "{{ site.url }}{{ site.baseurl }}/#website",
+                "url": "{{ site.url }}{{ site.baseurl }}/",
                 "name": "TW641 | Padavan CAKE 開源路由器韌體中心",
                 "description": "致力於對抗 Bufferbloat 網路延遲，提供多款經典路由器的 Padavan-CAKE 雲端編譯懶人包與演算法移植。",
                 "author": {
@@ -53,7 +52,7 @@
             },
             {
                 "@type": "SoftwareApplication",
-                "@id": "{{ site.url }}/#software",
+                "@id": "{{ site.url }}{{ site.baseurl }}/#software",
                 "name": "Padavan-CAKE Firmware",
                 "operatingSystem": "Linux",
                 "applicationCategory": "NetworkingApplication",
@@ -154,7 +153,7 @@
         <p>{{ site.description }}</p>
         <div>
             <a href="https://tw641.github.io/" class="btn" style="background-color: transparent; color: var(--text-color) !important; border: 1px solid var(--border-color);">🏠 回到 TW641 主站</a>
-            <a href="{{ site.github_url }}" target="_blank" rel="noopener noreferrer" class="btn">🚀 前往 GitHub 專案庫</a>
+            <a href="{{ site.github_url }}" target="_blank" class="btn">🚀 前往 GitHub 專案庫</a>
         </div>
     </header>
 
