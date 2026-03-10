@@ -149,7 +149,9 @@
 <body>
 
     <header class="header-section">
-        <h1>🇹🇼 {{ site.title }}</h1>
+        <h1>
+            <a href="{{ site.url }}{{ site.baseurl }}/" style="color: inherit; text-decoration: none;">🇹🇼 {{ site.title }}</a>
+        </h1>
         <p>{{ site.description }}</p>
         <div>
             <a href="https://tw641.github.io/" class="btn" style="background-color: transparent; color: var(--text-color) !important; border: 1px solid var(--border-color);">🏠 回到 TW641 主站</a>
