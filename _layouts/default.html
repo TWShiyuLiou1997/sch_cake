@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline';">
+    
+    <title>{{ site.title }} | TW641 開源路由器韌體中心</title>
+
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+
+    <meta name="google-site-verification" content="-vHIVPvpGauTz39uKyANi2BPSfJwrsrxGVMagKliEgE" />
+    <meta name="google-site-verification" content="OV7xROgDy7S6bx5Mrsf5hefCfoKkRYgE0F9raeoZ8qc" />
+    
+    <meta name="description" content="{{ site.description }}">
+    <meta name="keywords" content="Padavan, CAKE, SQM, Bufferbloat, 路由器, 韌體, 開源, 開放原始碼, 固件, TW641, 雲端編譯, sch_cake, mobile01, mobile01.com, ptt, ptt.cc, right, right.com.cn, 恩山, 恩山无线论坛, 恩山無線論壇, 恩山論壇, 論壇, 论坛, 刷機, 路由器刷機, 第三方韌體, 第三方固件, 老毛子, 老毛子固件, OpenWrt, Tomato, 網路優化, 降低延遲, K2P, DIR-878, MI-R3G, GL.iNet, 移植, port, backport">
+    <meta name="author" content="TW641">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ site.url }}/sitemap.xml">
+    
+    <link rel="icon" href="https://github.com/TW641.png" type="image/png">
+
+    <meta name="theme-color" content="#f6f8fa" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#0d1117" media="(prefers-color-scheme: dark)">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+    <meta property="og:title" content="{{ site.title }} | TW641 開源路由器韌體中心">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:image" content="{{ site.url }}/Padavan-CAKE/images/CAKE.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ site.title }} | TW641 開源路由器韌體中心">
+    <meta name="twitter:description" content="{{ site.description }}">
+    <meta name="twitter:image" content="{{ site.url }}/Padavan-CAKE/images/CAKE.png">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "WebSite",
+                "@id": "{{ site.url }}/#website",
+                "url": "{{ site.url }}/",
+                "name": "TW641 | Padavan CAKE 開源路由器韌體中心",
+                "description": "致力於對抗 Bufferbloat 網路延遲，提供多款經典路由器的 Padavan-CAKE 雲端編譯懶人包與演算法移植。",
+                "author": {
+                    "@type": "Person",
+                    "name": "TW641",
+                    "url": "https://github.com/TW641"
+                }
+            },
+            {
+                "@type": "SoftwareApplication",
+                "@id": "{{ site.url }}/#software",
+                "name": "Padavan-CAKE Firmware",
+                "operatingSystem": "Linux",
+                "applicationCategory": "NetworkingApplication",
+                "description": "基於 Padavan 源碼並整合 CAKE 演算法的第三方開源路由器韌體，支援 142 款機型自動化雲端編譯。",
+                "offers": {
+                    "@type": "Offer",
+                    "price": "0",
+                    "priceCurrency": "TWD"
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "TW641",
+                    "url": "https://github.com/TW641"
+                }
+            }
+        ]
+    }
+    </script>
+
+    <style>
+        /* === 完全保留原始 CSS === */
+        :root { --bg-color: #f6f8fa; --text-color: #24292f; --text-muted: #57606a; --card-bg: #ffffff; --link-color: #0550ae; --border-color: #d0d7de; --btn-bg: #2da44e; --btn-hover: #2c974b; --btn-text: #ffffff; --tag-bg: #eaf5ff; --tag-text: #0550ae; --table-header: #f3f6f9; --highlight-bg: #fff8c5; }
+        [data-theme="dark"] { --bg-color: #0d1117; --text-color: #c9d1d9; --text-muted: #8b949e; --card-bg: #161b22; --link-color: #79c0ff; --border-color: #30363d; --btn-bg: #238636; --btn-hover: #2ea043; --btn-text: #ffffff; --tag-bg: #1f2428; --tag-text: #79c0ff; --table-header: #21262d; --highlight-bg: #3a2e05; }
+        @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg-color: #0d1117; --text-color: #c9d1d9; --text-muted: #8b949e; --card-bg: #161b22; --link-color: #79c0ff; --border-color: #30363d; --btn-bg: #238636; --btn-hover: #2ea043; --btn-text: #ffffff; --tag-bg: #1f2428; --tag-text: #79c0ff; --table-header: #21262d; --highlight-bg: #3a2e05; } }
+        .theme-toggle-btn { position: fixed; bottom: 30px; right: 30px; background-color: var(--card-bg); color: var(--text-color); border: 1px solid var(--border-color); border-radius: 50%; width: 50px; height: 50px; font-size: 1.5em; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.15); transition: transform 0.2s ease, background-color 0.3s ease; z-index: 9999; display: flex; align-items: center; justify-content: center; }
+        .theme-toggle-btn:hover { transform: scale(1.1); }
+        body { background-color: var(--bg-color); color: var(--text-color); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; max-width: 850px; margin: 0 auto; padding: 50px 20px; transition: background-color 0.3s ease, color 0.3s ease; }
+        h1, h2, h3 { color: var(--text-color); margin-top: 0; }
+        a { color: var(--link-color); text-decoration: none; font-weight: 600; transition: color 0.2s; }
+        a:hover { text-decoration: underline; }
+        .header-section { text-align: center; margin-bottom: 50px; }
+        .header-section h1 { font-size: 2.5em; margin-bottom: 10px; }
+        .header-section p { font-size: 1.2em; color: var(--text-muted); }
+        .card { background-color: var(--card-bg); border: 1px solid var(--border-color); border-radius: 12px; padding: 30px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); transition: transform 0.2s, box-shadow 0.2s; }
+        .card:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.1); }
+        .card h2 { display: flex; align-items: center; font-size: 1.5em; border-bottom: 1px solid var(--border-color); padding-bottom: 10px; margin-bottom: 20px; }
+        .card-list { list-style: none; padding: 0; margin: 0; }
+        .card-list > li { margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px dashed var(--border-color); }
+        .card-list > li:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+        .card-list strong { font-size: 1.1em; }
+        .card-list p { margin: 8px 0 0 0; color: var(--text-muted); font-size: 0.95em; }
+        .feature-list { list-style: disc; padding-left: 20px; margin: 0; color: var(--text-muted); font-size: 0.95em; }
+        .feature-list li { margin-bottom: 8px; }
+        .feature-list b { color: var(--text-color); }
+        .thanks-list { list-style: none; padding-left: 0; margin-top: 10px; }
+        .thanks-list > li { margin-bottom: 12px; }
+        .sub-thanks-list { list-style-type: circle; padding-left: 20px; margin-top: 5px; margin-bottom: 10px; color: var(--text-color); }
+        .sub-thanks-list li { margin-bottom: 4px; border: none; padding-bottom: 0; font-size: 0.95em; }
+        .memory-img { max-width: 100%; height: auto; border: 1px solid var(--border-color); border-radius: 8px; margin-top: 15px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; }
+        .btn { display: inline-block; padding: 10px 24px; background-color: var(--btn-bg); color: var(--btn-text) !important; border-radius: 6px; text-decoration: none; font-weight: bold; transition: background-color 0.2s; text-align: center; }
+        .btn:hover { background-color: var(--btn-hover); text-decoration: none; }
+        .tag { display: inline-block; padding: 2px 8px; font-size: 0.8em; border-radius: 12px; background-color: var(--tag-bg); color: var(--tag-text); margin-right: 8px; font-weight: normal; }
+        .code-block { background-color: var(--table-header); padding: 2px 6px; border-radius: 4px; font-family: monospace; font-size: 0.9em; color: var(--link-color); }
+        details { background-color: var(--table-header); border: 1px solid var(--border-color); border-radius: 8px; padding: 10px 20px; margin-bottom: 15px; }
+        summary { font-weight: bold; cursor: pointer; outline: none; font-size: 1.1em; color: var(--link-color); }
+        summary:hover { text-decoration: underline; }
+        details p, details ul, details ol { margin-top: 15px; font-size: 0.95em; color: var(--text-color); }
+        .table-container { overflow-x: auto; margin-top: 10px; }
+        .device-table { width: 100%; border-collapse: collapse; font-size: 0.9em; min-width: 500px; }
+        .device-table th, .device-table td { border-bottom: 1px solid var(--border-color); padding: 8px 10px; text-align: left; }
+        .device-table th { font-weight: bold; background-color: rgba(0,0,0,0.03); }
+        .device-table tr:hover td { background-color: rgba(0,0,0,0.02); }
+        .footer { text-align: center; margin-top: 60px; font-size: 0.9em; color: var(--text-muted); }
+        .quote-box { background-color: var(--bg-color); padding: 15px; border-left: 4px solid var(--link-color); border-radius: 4px; margin-top: 15px; font-size: 0.95em; color: var(--text-color); }
+        .highlight-box { background-color: var(--highlight-bg); border: 1px solid #d4a72c; padding: 15px; border-radius: 8px; margin-top: 20px; }
+        @media (max-width: 600px) { .header-section h1 { font-size: 1.6em; } .header-section p { font-size: 1em; } }
+
+        /* === 無損追加：Markdown 原生防破版 CSS + 錨點樣式 === */
+        .markdown-body { background-color: var(--card-bg); border: 1px solid var(--border-color); border-radius: 12px; padding: 30px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); overflow: hidden; transition: transform 0.2s, box-shadow 0.2s; }
+        .markdown-body:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.1); }
+        @media (max-width: 600px) { .markdown-body { padding: 20px; } }
+        
+        .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4 { border-bottom: 1px solid var(--border-color); padding-bottom: 8px; margin-top: 24px; margin-bottom: 16px; position: relative; display: flex; align-items: center; }
+        .markdown-body blockquote { border-left: 4px solid var(--link-color); padding: 15px; color: var(--text-color); margin: 0 0 16px 0; background-color: var(--bg-color); border-radius: 4px; font-size: 0.95em; }
+        .markdown-body hr { height: 1px; padding: 0; margin: 24px 0; background-color: var(--border-color); border: 0; }
+        .markdown-body code { background-color: var(--table-header); padding: 2px 6px; border-radius: 4px; font-family: monospace; font-size: 0.9em; color: var(--link-color); }
+        .markdown-body pre { background-color: var(--table-header); padding: 16px; overflow: auto; border-radius: 8px; border: 1px solid var(--border-color); }
+        .markdown-body pre code { background-color: transparent; padding: 0; font-size: 100%; border: none; color: var(--text-color); }
+        .markdown-body img { max-width: 100%; box-sizing: content-box; background-color: var(--card-bg); border-radius: 8px; }
+
+        .markdown-body table { border-spacing: 0; border-collapse: collapse; display: block; width: max-content; max-width: 100%; overflow: auto; margin-top: 0; margin-bottom: 16px; font-size: 0.9em; }
+        .markdown-body table th, .markdown-body table td { padding: 8px 10px; border: 1px solid var(--border-color); }
+        .markdown-body table tr { background-color: var(--card-bg); border-top: 1px solid var(--border-color); }
+        .markdown-body table tr:nth-child(2n) { background-color: rgba(0,0,0,0.02); }
+        [data-theme="dark"] .markdown-body table tr:nth-child(2n) { background-color: rgba(255,255,255,0.02); }
+        .markdown-body table th { font-weight: bold; background-color: rgba(0,0,0,0.03); text-align: left; }
+
+        .heading-with-anchor { position: relative; }
+        .heading-with-anchor .anchor { float: left; padding-right: 4px; margin-left: -20px; line-height: 1; visibility: hidden; text-decoration: none; outline: none; }
+        .heading-with-anchor:hover .anchor, .heading-with-anchor .anchor:focus { visibility: visible; }
+        .anchor svg { fill: var(--link-color); vertical-align: middle; visibility: visible; }
+    </style>
+</head>
+<body>
+
+    <header class="header-section">
+        <h1>🇹🇼 {{ site.title }}</h1>
+        <p>{{ site.description }}</p>
+        <div>
+            <a href="https://tw641.github.io/" class="btn" style="background-color: transparent; color: var(--text-color) !important; border: 1px solid var(--border-color);">🏠 回到 TW641 主站</a>
+            <a href="{{ site.github_url }}" target="_blank" rel="noopener noreferrer" class="btn">🚀 前往 GitHub 專案庫</a>
+        </div>
+    </header>
+
+    <main>
+        <article class="markdown-body">
+            {{ content }}
+        </article>
+    </main>
+
+    <footer class="footer">
+        <p>© <span id="year"></span> TW641. Built with passion for a Bufferbloat-free world.</p>
+    </footer>
+
+    <button id="theme-toggle" class="theme-toggle-btn" aria-label="切換亮暗色模式" title="切換亮暗色模式">
+        🌓
+    </button>
+
+    <script>
+        document.getElementById("year").textContent=new Date().getFullYear();
+        const themeToggleBtn=document.getElementById('theme-toggle');
+        const rootElement=document.documentElement;
+        const currentTheme=localStorage.getItem('theme');
+        const prefersDarkScheme=window.matchMedia('(prefers-color-scheme: dark)');
+        if(currentTheme==='dark'){
+            rootElement.setAttribute('data-theme','dark');
+            themeToggleBtn.textContent='☀️';
+        }else if(currentTheme==='light'){
+            rootElement.setAttribute('data-theme','light');
+            themeToggleBtn.textContent='🌙';
+        }else{
+            themeToggleBtn.textContent=prefersDarkScheme.matches?'☀️':'🌙';
+        }
+        themeToggleBtn.addEventListener('click',()=>{
+            let isDark=rootElement.getAttribute('data-theme')==='dark'||(!rootElement.hasAttribute('data-theme')&&prefersDarkScheme.matches);
+            if(isDark){
+                rootElement.setAttribute('data-theme','light');
+                localStorage.setItem('theme','light');
+                themeToggleBtn.textContent='🌙';
+            }else{
+                rootElement.setAttribute('data-theme','dark');
+                localStorage.setItem('theme','dark');
+                themeToggleBtn.textContent='☀️';
+            }
+        });
+
+        // 懸浮錨點
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelectorAll('.markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6').forEach(function(heading) {
+                if (heading.id) {
+                    heading.classList.add('heading-with-anchor');
+                    let anchor = document.createElement('a');
+                    anchor.className = 'anchor';
+                    anchor.href = '#' + heading.id;
+                    anchor.setAttribute('aria-hidden', 'true');
+                    anchor.innerHTML = '<svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.829 2.829l-2.5 2.5a2 2 0 01-2.829 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.829l2.5-2.5a2 2 0 012.829 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.829 0z"></path></svg>';
+                    heading.prepend(anchor);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
