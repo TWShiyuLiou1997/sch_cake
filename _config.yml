@@ -2,6 +2,7 @@
 title: "sch_cake (The Dave Täht Tribute Fork)"
 description: "A tribute to the soul of bufferbloat mitigation."
 url: "https://tw641.github.io"
+baseurl: "/sch_cake"
 github_url: "https://github.com/TW641/sch_cake"
 
 # 強制開啟 GFM 引擎與自動生成 ID (確保 TOC 單頁跳轉完美生效)
