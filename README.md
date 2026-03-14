@@ -7,7 +7,7 @@
 
 ### ⭐ Light up the Täht: A Final Tribute
 
-> <code><b><i>**"The darker the night, the brighter the Täht."**</i></b></code>
+> <code><b><i>"The darker the night, the brighter the Täht."</i></b></code>
 
 To the world, he was the unsung hero who silently ripped the excess latency out of the Internet. To the open-source community, he was a legend known as **dtaht** on Reddit and **@mtaht** on Twitter. But behind the code was a man born **Michael**, who chose to live as **Dave**, and gave everything to connect us all.<br><br>
 As perhaps the final large-scale Padavan port for legacy devices, this project serves as a digital museum. Before his digital footprints fade into the void of the internet, there are forgotten stories—cold facts and warm lore—that must be preserved here.
@@ -30,7 +30,7 @@ As perhaps the final large-scale Padavan port for legacy devices, this project s
 
 <br>
 
-> <code><b><i>**Though Täht's physical world gradually faded into darkness, our digital universe continues to shine brightly because of him.**</i></b></code>
+> <code><b><i>Though Täht's physical world gradually faded into darkness, our digital universe continues to shine brightly because of him.</i></b></code>
 
 <br>
 
@@ -40,7 +40,7 @@ There is a heartbreaking, yet incredibly beautiful timeline to Dave's family. <b
 On June 9, 2012, sitting by his late father Ron's side in his final hours, Dave wrote on his blog:<br>
 > *"Of all these things, the one viewpoint I was sure of, the one thing I believe to be true of an afterlife, such as it is, was this: "*
 >
-> *"<code><b><i>**That yes, we are all starstuff.**</i></b></code>"*
+> *"<code><b><i>That yes, we are all starstuff.</i></b></code>"*
 >
 > *"**And it made me cry to think it through.**"*<br>
 
@@ -190,7 +190,11 @@ This song is the absolute reflection of Dave's life. He refused the "sky full of
 [![MAYDAY - Fool Live](https://tw641.github.io/Mayday-Fool.jpg)](https://youtu.be/olGod8i1j1o "Click to play Mayday - Fool (Live Version)")<br>
 *(🎧 Click the image to listen to the Live Version of "Fool" / 點擊圖片聆聽《憨人》萬人合唱版)*<br><br>
 If his monumental work has ever improved your network, please honor this brilliant, selfless "Fool" by **Lighting up the "Star"** in the top-right corner of this repository.<br><br>
-*Let's keep his Star shining bright in the open-source world, guiding packets through the dark. His physical journey has ended, but as an old friend who bonded with him over music perfectly bid him farewell: **"Happy travels, amigo!"** The global open-source community will carry his CAKE legacy forward:*<br>
+*Let's keep his Star shining bright in the open-source world, guiding packets through the dark.<br>*
+*His physical journey has ended, but as an old friend who bonded with him over music perfectly bid him farewell: <br>*
+> **"Happy travels, amigo!"** <br>
+>
+*The global open-source community will carry his CAKE legacy forward:<br>*
 
 > **「我有我的路 我有我的夢，總會有一天... 彈奏著 Dave's Guitar 🎸」**<br>
 > *(Gua u gua e loo, gua u gua e bang, tsong u tsit-kang... tuann-tsau Dave's Guitar 🎸)*<br>
