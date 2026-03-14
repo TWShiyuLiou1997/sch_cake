@@ -434,7 +434,7 @@ This repo exists to keep Dave's spirit alive by ensuring the code remains access
 * [LibreQoS Github Project](https://github.com/LibreQoE/LibreQoS/)
 * [Dave's Talks: Reducing Network Latency (GOTO 2024)](https://www.youtube.com/watch?v=UDo9W4tt69c)
 
-![Dave Täht Tribute](https://i0.wp.com/libreqos.io/wp-content/uploads/2025/04/WISPAPALOOZA-2024_6.jpg)
+![Dave Täht Tribute](https://tw641.github.io/Padavan-CAKE/images/davetaht.jpg)
 *[Image Credit: LibreQoS]*
 
 ---
