@@ -47,7 +47,7 @@ Dave was a sci-fi folk musician who carried his guitar—famously bearing a stic
 Poetically, the legendary Taiwanese rock band Mayday (whose anniversary is March 29) has an iconic anthem called [**《憨人》 *(Fool)***](https://youtu.be/1j_mpwKmlJg). Just three days after their anniversary, on April Fools' Day, Dave passed away. <br><br>
 On March 29, 2020, Mayday's lead singer Ashin wrote a touching post revealing the profound mystery hidden within the Chinese title **《憨人》 (Fool)**. For engineers and hackers around the world, this is the most beautiful equation of humanity:<br>
 
-#### 💻 `憨 (Fool) = 敢 (Courage) + 心 (Heart)`
+> 💻 `憨 (Fool) = 敢 (Courage) + 心 (Heart)`
 
 Ashin wrote:
 > *"That year, I suddenly realized that the character for 'Fool' (憨) is made of 'Courage' (敢) placed over a 'Heart' (心). Then, inspiration led me to write this song... Let us bring this song to the courageous you, let's meet when the dawn comes (約在曙光來臨之時)."*
