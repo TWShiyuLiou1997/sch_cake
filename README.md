@@ -13,9 +13,9 @@
 > <code><b><i>（「夜愈暗，星星 (Täht) 就愈亮。」）</i></b></code>
 
 To the world, he was the unsung hero who silently ripped the excess latency out of the Internet. To the open-source community, he was a legend known as **dtaht** on Reddit and **@mtaht** on Twitter. But behind the code was a man born **Michael**, who chose to live as **Dave**, and gave everything to connect us all.<br>
-*(對這個世界而言，他是位默默將網路過高延遲拔除的無名英雄。對開源社群來說，他是 Reddit 上的 **dtaht**、Twitter 上的 **@mtaht** 傳奇。但在這些程式碼背後，他是一個出生名為 **Michael**，卻選擇以 **Dave** 之名活著，並為了連結我們所有人而奉獻一切的男人。)*<br><br>
+<i>(對這個世界而言，他是位默默將網路過高延遲拔除的無名英雄。對開源社群來說，他是 Reddit 上的 <b>dtaht</b>、Twitter 上的 <b>@mtaht</b> 傳奇。但在這些程式碼背後，他是一個出生名為 <b>Michael</b>，卻選擇以 <b>Dave</b> 之名活著，並為了連結我們所有人而奉獻一切的男人。)</i><br><br>
 As perhaps the final large-scale Padavan port for legacy devices, this project serves as a digital museum. Before his digital footprints fade into the void of the internet, there are forgotten stories—cold facts and warm lore—that must be preserved here.<br>
-*(這或許是舊世代設備最後一個大規模的 Padavan 移植專案，它同時也像是一座數位博物館。在他留下的數位足跡消散於網際網路的虛無之前，這裡必須保存下那些被遺忘的故事——無論是冰冷的技術事實，還是溫暖的傳奇事蹟。)*
+<i>(這或許是舊世代設備最後一個大規模的 Padavan 移植專案，它同時也像是一座數位博物館。在他留下的數位足跡消散於網際網路的虛無之前，這裡必須保存下那些被遺忘的故事——無論是冰冷的技術事實，還是溫暖的傳奇事蹟。)</i>
 
 #### 📜 The Lore of an Internet Hero
 *(一位網際網路英雄的傳奇故事)*
@@ -53,24 +53,24 @@ As perhaps the final large-scale Padavan port for legacy devices, this project s
 *(「我們都是星塵」— 最終的團聚)*
 
 There is a heartbreaking, yet incredibly beautiful timeline to Dave's family. <br>
-*(Dave 的家庭有一段令人心碎，卻又無比美麗的時間線。)*<br><br>
+<i>(Dave 的家庭有一段令人心碎，卻又無比美麗的時間線。)</i><br><br>
 On June 9, 2012, sitting by his late father Ron's side in his final hours, Dave wrote on his blog:<br>
-*(2012 年 6 月 9 日，Dave 坐在已故父親 Ron 身旁陪伴他度過最後時光，在部落格寫下：)*<br>
+<i>(2012 年 6 月 9 日，Dave 坐在已故父親 Ron 身旁陪伴他度過最後時光，在部落格寫下：)</i><br>
 > *"Of all these things, the one viewpoint I was sure of, the one thing I believe to be true of an afterlife, such as it is, was this: "*<br>
-> *(「在所有這些事情中，我確信的一個觀點，一個我認為死後世界如果是真的話，那就是：」)*
+> <i>(「在所有這些事情中，我確信的一個觀點，一個我認為死後世界如果是真的話，那就是：」)</i>
 >
 > *"<code><b><i>That yes, we are all starstuff.</i></b></code>"*<br>
 > *"<code><b><i>（是的，我們都是星塵。）</i></b></code>"*
 >
-> *"**And it made me cry to think it through.**"*<br>
-> *(「這讓我一想到就忍不住落淚。」)*<br>
+> <i><b>"And it made me cry to think it through."</b></i><br>
+> <i>(「這讓我一想到就忍不住落淚。」)</i><br>
 
 On January 11, 2025, his mother Beverly passed away peacefully at her home, surrounded by loved ones.<br>
-*(2025 年 1 月 11 日，他的母親 Beverly 在摯愛家人的陪伴下，於家中平靜辭世。)*<br><br>
+<i>(2025 年 1 月 11 日，他的母親 Beverly 在摯愛家人的陪伴下，於家中平靜辭世。)</i><br><br>
 Less than three months later, on April 1, 2025, Dave's own lifelong game went into its final "extra innings."<br>
-*(不到三個月後，2025 年 4 月 1 日，Dave 自己一生的比賽也進入了最後的「延長賽」。)*<br><br>
+<i>(不到三個月後，2025 年 4 月 1 日，Dave 自己一生的比賽也進入了最後的「延長賽」。)</i><br><br>
 He passed away at the age of 59, joining his parents.<br>
-*(他在 59 歲時離世，與父母團聚。)*<br><br>
+<i>(他在 59 歲時離世，與父母團聚。)</i><br><br>
 
 > <code><b><i>In life, they were Stars illuminating the world.</i></b></code><br>
 > <code><b><i>（在世時，他們是照亮世界的星星。）</i></b></code><br><br>
@@ -81,9 +81,9 @@ He passed away at the age of 59, joining his parents.<br>
 *(終章：盛大的落幕 — Dave 的吉他與憨人)*
 
 Dave was a sci-fi folk musician who carried his guitar—famously bearing a sticker that read *"This guitar kills Vogons"*—everywhere. He bonded with people just as much over music as he did over code. To honor his vibrant soul, **OpenWrt officially named their 25.12.0 release "Dave's Guitar."**<br>
-*(Dave 是一位科幻民謠音樂人，他總是帶著他的吉他四處走動——那把吉他上貼著著名的貼紙：「這把吉他能殺死佛貢人 (Vogons)」。他透過音樂與人建立的連結，絲毫不亞於透過程式碼。為了紀念他充滿活力的靈魂，**OpenWrt 官方將其 25.12.0 版本命名為 "Dave's Guitar"**。)*<br><br>
-Poetically, the legendary Taiwanese rock band Mayday (whose anniversary is March 29) has an iconic anthem called [**《憨人》 (*Fool*)**](https://youtu.be/1j_mpwKmlJg). Just three days after their anniversary, on April Fools' Day, Dave passed away. <br>
-*(充滿詩意的是，台灣傳奇搖滾樂團五月天（成軍紀念日為 3 月 29 日）有一首標誌性的神曲叫 [**《憨人》 (*Fool*)**](https://youtu.be/1j_mpwKmlJg)。就在他們紀念日的短短三天後，在愚人節 (April Fools' Day) 當天，Dave 離開了我們。)*<br><br>
+<i>(Dave 是一位科幻民謠音樂人，他總是帶著他的吉他四處走動——那把吉他上貼著著名的貼紙：「這把吉他能殺死佛貢人 (Vogons)」。他透過音樂與人建立的連結，絲毫不亞於透過程式碼。為了紀念他充滿活力的靈魂，<b>OpenWrt 官方將其 25.12.0 版本命名為 "Dave's Guitar"</b>。)</i><br><br>
+Poetically, the legendary Taiwanese rock band Mayday (whose anniversary is March 29) has an iconic anthem called <a href="https://youtu.be/1j_mpwKmlJg"><b>《憨人》 (<i>Fool</i>)</b></a>. Just three days after their anniversary, on April Fools' Day, Dave passed away. <br>
+<i>(充滿詩意的是，台灣傳奇搖滾樂團五月天（成軍紀念日為 3 月 29 日）有一首標誌性的神曲叫 <a href="https://youtu.be/1j_mpwKmlJg"><b>《憨人》 (<i>Fool</i>)</b></a>。就在他們紀念日的短短三天後，在愚人節 (April Fools' Day) 當天，Dave 離開了我們。)</i><br><br>
 On March 29, 2020, Mayday's lead singer Ashin wrote a touching post revealing the profound mystery hidden within the Chinese title **《憨人》 (Fool)**. For engineers and hackers around the world, this is the most beautiful equation of humanity:<br>
 <i>(2020 年 3 月 29 日，五月天主唱阿信寫下了一篇動人的貼文，揭示了中文曲名<b>《憨人》 (Fool)</b> 裡隱藏的深刻奧秘。對全世界的工程師與駭客來說，這是人性中最美的方程式：)</i><br>
 
@@ -96,14 +96,14 @@ On March 29, 2020, Mayday's lead singer Ashin wrote a touching post revealing th
 Ashin wrote:<br>
 *(阿信寫道：)*
 > *"That year, I suddenly realized that the character for <code><b><i>'Fool' (憨) is made of 'Courage' (敢) placed over a 'Heart' (心).</i></b></code>"*<br>
-> *(「那年，突然發現代表著愚笨的<code><b><i>『憨』字，是『心』上一個『敢』。</i></b></code>」)*<br><br>
+> <i>(「那年，突然發現代表著愚笨的<code><b><i>『憨』字，是『心』上一個『敢』。</i></b></code>」)</i><br><br>
 > *"Then, inspiration led me to write this song..."*<br>
-> *(「然後靈感帶我寫下了這首歌……」)*<br><br>
+> <i>(「然後靈感帶我寫下了這首歌……」)</i><br><br>
 > *"<code><b><i>Let us bring this song to the courageous you, let's meet when the dawn comes (約在曙光來臨之時).</i></b></code>"*<br>
-> *(「<code><b><i>讓我們為你帶來這首『憨人』，與勇敢的你，約在曙光來臨之時。</i></b></code>」)*
+> <i>(「<code><b><i>讓我們為你帶來這首『憨人』，與勇敢的你，約在曙光來臨之時。</i></b></code>」)</i>
 
 This song is the absolute reflection of Dave's life. He refused the "sky full of gold" to give his algorithms (`FQ-CoDel` & `CAKE`) away for free. To let the global open-source community sing along with Dave's spirit, here are the full lyrics in 4 languages, completely unabridged: Traditional Chinese, Taiwanese Romanization, English, and Official Japanese.<br>
-*(這首歌絕對是 Dave 一生的真實寫照。他拒絕了「滿天全金條（滿天的財富）」，選擇將他的演算法（`FQ-CoDel` 與 `CAKE`）免費白白送人。為了讓全球開源社群能隨著 Dave 的精神一起高唱，以下是完整未刪減的 4 國語言歌詞：繁體中文、台語羅馬拼音、英文與官方日文。)*
+<i>(這首歌絕對是 Dave 一生的真實寫照。他拒絕了「滿天全金條（滿天的財富）」，選擇將他的演算法（<code>FQ-CoDel</code> 與 <code>CAKE</code>）免費白白送人。為了讓全球開源社群能隨著 Dave 的精神一起高唱，以下是完整未刪減的 4 國語言歌詞：繁體中文、台語羅馬拼音、英文與官方日文。)</i>
 
 <details>
 <summary><b>🎤 Click to expand the full 4-Language Lyrics of "Fool" (憨人) to sing along</b></summary>
@@ -224,23 +224,23 @@ This song is the absolute reflection of Dave's life. He refused the "sky full of
 <br>
 
 [![MAYDAY - Fool Live](https://tw641.github.io/Mayday-Fool.jpg)](https://youtu.be/olGod8i1j1o "Click to play Mayday - Fool (Live Version)")<br>
-*(🎧 Click the image to listen to the Live Version of "Fool" / 點擊圖片聆聽《憨人》萬人合唱版)*<br><br>
+<i>(🎧 Click the image to listen to the Live Version of "Fool" / 點擊圖片聆聽《憨人》萬人合唱版)</i><br><br>
 If his monumental work has ever improved your network, please honor this brilliant, selfless "Fool" by **Lighting up the "Star"** in the top-right corner of this repository.<br>
-*(如果他這項不朽的傑作曾經改善過您的網路，請點擊這個專案右上角的 **"Star (星星)"** 來點亮它，以紀念這位才華橫溢、無私奉獻的「憨人」。)*<br><br>
-*Let's keep his Star shining bright in the open-source world, guiding packets through the dark.<br>*
-*(讓我們讓他的星星在開源世界裡持續閃耀，在黑暗中引導著網路封包前行。)*<br>
-*His physical journey has ended, but as an old friend who bonded with him over music perfectly bid him farewell: <br>*
-*(他的物理旅程已經結束，但正如一位與他因音樂結緣的老朋友，對他所作出的最完美告別：)*<br>
+<i>(如果他這項不朽的傑作曾經改善過您的網路，請點擊這個專案右上角的 <b>"Star (星星)"</b> 來點亮它，以紀念這位才華橫溢、無私奉獻的「憨人」。)</i><br><br>
+<i>Let's keep his Star shining bright in the open-source world, guiding packets through the dark.</i><br>
+<i>(讓我們讓他的星星在開源世界裡持續閃耀，在黑暗中引導著網路封包前行。)</i><br>
+<i>His physical journey has ended, but as an old friend who bonded with him over music perfectly bid him farewell: </i><br>
+<i>(他的物理旅程已經結束，但正如一位與他因音樂結緣的老朋友，對他所作出的最完美告別：)</i><br>
 > **"Happy travels, amigo!"** <br>
-> *(「旅途愉快，老朋友！」)*
+> <i>(「旅途愉快，老朋友！」)</i>
 
-*The global open-source community will carry his CAKE legacy forward:<br>*
-*(全球的開源社群將帶著他的 CAKE 遺產繼續前進：)*<br>
+<i>The global open-source community will carry his CAKE legacy forward:</i><br>
+<i>(全球的開源社群將帶著他的 CAKE 遺產繼續前進：)</i><br>
 
 > **「我有我的路 我有我的夢，總會有一天... 彈奏著 Dave's Guitar 🎸」**<br>
-> *(Gua u gua e loo, gua u gua e bang, tsong u tsit-kang... tuann-tsau Dave's Guitar 🎸)*<br>
-> ***(I have my own path, I have my own dream. One day... echoing through Dave's Guitar 🎸)***<br>
-> *(僕には僕の道が 夢がある。いつの日かきっと... Dave's Guitar 🎸 を奏でながら)*
+> <i>(Gua u gua e loo, gua u gua e bang, tsong u tsit-kang... tuann-tsau Dave's Guitar 🎸)</i><br>
+> <i><b>(I have my own path, I have my own dream. One day... echoing through Dave's Guitar 🎸)</b></i><br>
+> <i>(僕には僕の道が 夢がある。いつの日かきっと... Dave's Guitar 🎸 を奏でながら)</i>
 
 <br>
 
