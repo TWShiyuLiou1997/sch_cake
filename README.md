@@ -89,9 +89,7 @@ On March 29, 2020, Mayday's lead singer Ashin wrote a touching post revealing th
 
 <br>
 
-<p align="center">
-  <code><b><i>💻 憨 (Fool) = 敢 (Courage) + 心 (Heart)</i></b></code>
-</p>
+> <p align="center">💻 <code><b><i>憨 (Fool) = 敢 (Courage) + 心 (Heart)</i></b></code></p>
 
 <br>
 
