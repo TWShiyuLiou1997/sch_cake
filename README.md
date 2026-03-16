@@ -5,7 +5,7 @@
 
 ---
 
-### ⭐ Light up the Täht: A Final Tribute
+## ⭐ Light up the Täht: A Final Tribute
 *(點亮星辰：最後的致敬)*
 
 > <code><b><i>"The darker the night, the brighter the Täht."</i></b></code>
@@ -17,7 +17,7 @@ To the world, he was the unsung hero who silently ripped the excess latency out 
 As perhaps the final large-scale Padavan port for legacy devices, this project serves as a digital museum. Before his digital footprints fade into the void of the internet, there are forgotten stories—cold facts and warm lore—that must be preserved here.<br>
 <i>(這或許是舊世代設備最後一個大規模的 Padavan 移植專案，它同時也像是一座數位博物館。在他留下的數位足跡消散於網際網路的虛無之前，這裡必須保存下那些被遺忘的故事——無論是冰冷的技術事實，還是溫暖的傳奇事蹟。)</i>
 
-#### 📜 The Lore of an Internet Hero
+### 📜 The Lore of an Internet Hero
 *(一位網際網路英雄的傳奇故事)*
 
 * ⚖️ **The Judge, The Hacker & The "Disappointment":** Dave's father, Ron, was a respected municipal judge. Ironically, Ron once wrote that he was his own parents' "only disappointment" because he became a lawyer instead of an engineer. Decades later, Ron found himself equally baffled by his own son. Dave’s nomadic hacker lifestyle confused him. Ron would playfully grumble: *"Why don't you work for IBM? You've been [fixing the internet and giving the technology away for free? Again?](https://blog.cerowrt.org/)"* But Dave wasn't chasing money; he was chasing a dream. Yet, Dave inherited his father's fierce sense of justice and critical thinking—a trait summarized by a tattooed ex-convict who once recognized Dave in a bar and bought him a beer, simply saying of Judge Ron: *"He was fair."*<br>
@@ -49,7 +49,7 @@ As perhaps the final large-scale Padavan port for legacy devices, this project s
 
 <br>
 
-#### 🌠 "We Are All Starstuff" (The Final Reunion)
+### 🌠 "We Are All Starstuff" (The Final Reunion)
 *(「我們都是星塵」— 最終的團聚)*
 
 There is a heartbreaking, yet incredibly beautiful timeline to Dave's family. <br>
@@ -77,7 +77,7 @@ He passed away at the age of 59, joining his parents.<br>
 > <code><b><i>In death, they are Starstuff illuminating the universe.</i></b></code><br>
 > <code><b><i>（逝世後，他們是點亮宇宙的星塵。）</i></b></code>
 
-#### 🎼 Coda: The Grand Finale (Dave's Guitar & Fool)
+### 🎼 Coda: The Grand Finale (Dave's Guitar & Fool)
 *(終章：盛大的落幕 — Dave 的吉他與憨人)*
 
 Dave was a sci-fi folk musician who carried his guitar—famously bearing a sticker that read *"This guitar kills Vogons"*—everywhere. He bonded with people just as much over music as he did over code. To honor his vibrant soul, **OpenWrt officially named their 25.12.0 release "Dave's Guitar."**<br>
@@ -246,7 +246,7 @@ If his monumental work has ever improved your network, please honor this brillia
 
 ---
 
-#### 🔗 References & Tributes
+### 🔗 References & Tributes
 * **Dave's Starstuff Quote (2012):** [Ron's Ravings Blog Comments](https://ronsravings.blogspot.com/2012/06/rip-ron-taht.html?showComment=1339262388498#c3179985587009391271)
 * **Ron at Hope Hospice (2012):** [Ron's Ravings: Ron at Hope Hospice](https://ronsravings.blogspot.com/2012/05/ron-at-hope-hospice.html)
 * **Extra Innings Eulogy & The Alternate Universe (2012):** [Eulogy - "Extra Innings"](https://ronsravings.blogspot.com/2012/10/memorial-service-eulogy.html)
