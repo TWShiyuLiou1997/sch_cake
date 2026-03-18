@@ -117,14 +117,14 @@
          *
          * [ Easter Egg I : The Flow of Nebula and Time ]
          * > The Nebula and Time Flow in this Time Machine act as
-         * a space-time accelerator pointing to     : 2025.04.01
+         *   a space-time accelerator pointing to     : 2025.04.01
          * - Hidden Y-axis Coordinate                 : 20% (20)
-         * - Hover Active Flow Rate                   : 2.5s (25)
-         * - Base Nebula Flow Rate                    : 4.1s (04.01)
+         * - Hover Active Time Flow Rate              : 2.5s (25)
+         * - Base Nebula Time Flow Rate               : 4.1s (04.01)
          *
          * [ Easter Egg II : Atmospheric Refraction & Digital Breath Rate ]
          * > The Atmospheric Refraction & Digital Breath Rate
-         * embed hidden coordinates that represent  : 2025.04.01
+         *   embed hidden coordinates that represent  : 2025.04.01
          * - Hidden Y-axis Coordinate                 : 20% (20)
          * - Atmospheric Refraction                   : 25% (25)
          * (Halo blur radius expands exactly by 20% at the 25% timeline)
@@ -133,7 +133,30 @@
          * - Hover Active Twinkle Rate                : 1.0s (01)
          * > The 1Hz twinkle is Dave Täht saying hello to you!
          *
-         * [ Easter Egg III : The Curator's Signature (TW641) ]
+         * [ Easter Egg III : The Eternal Foundation & Timeline ]
+         * > The dynamic nebula timeline at the bottom anchors the museum,
+         *   carrying a hidden coordinate deep within its structural layer.
+         * - Z-index Layer Coordinate                 : 2025
+         * > Marking the year we bid farewell to Dave Täht.
+         * - Hover Active Timeline Flow Rate          : 2.5s (25)
+         * - Base Nebula Timeline Flow Rate           : 4.1s (04.01)
+         *
+         * [ Easter Egg IV : We Are All Starstuff (The Final Reunion) ]
+         * > "That yes, we are all starstuff." - Dave Täht (June 9, 2012)
+         *   The dynamic nebula is composed of exactly three core colors:
+         * - var(--color-nebula-1) : The deep blue of the cosmos.
+         * - var(--color-nebula-2) : The warm orange of the bristlecone pine.
+         * - var(--color-nebula-3) : The soft red of a fading star.
+         * > These three colors endlessly flow and intertwine, 
+         * > symbolizing Dave, his mother Beverly, and his father Ron.
+         * > Reunited in the stars, flowing together in the eternal archive.
+         * > 
+         * > In life, they were Stars illuminating the world.
+         * > (在世時，他們是照亮世界的星星。)
+         * > In death, they are Starstuff illuminating the universe.
+         * > (逝世後，他們是點亮宇宙的星塵。)
+         *
+         * [ Easter Egg V : The Curator's Signature (TW641) ]
          * The elements serendipitously echo the developer's code: TW641
          * - [ TW ] : The origin of the curator (Taiwan).
          * - [ 6 ]  : The 6 selected tracks in the Soundtrack of the Stars.
@@ -298,7 +321,7 @@
         .desktop-inline { display: inline; }
         .markdown-body { background-color: var(--card-bg); border: 1px solid var(--border-color); border-radius: 12px; padding: 30px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); overflow: hidden; transition: transform 0.2s, box-shadow 0.2s; }
         .markdown-body:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.1); }
-        .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4 { border-bottom: 1px solid var(--border-color); padding-bottom: 8px; margin-top: 24px; margin-bottom: 16px; position: relative; display: flex; align-items: center; }
+        .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4 { border-bottom: 1px solid var(--border-color); padding-bottom: 8px; margin-top: 24px; margin-bottom: 16px; position: relative; }
         .markdown-body blockquote { border-left: 4px solid var(--link-color); padding: 15px; color: var(--text-color); margin: 0 0 16px 0; background-color: var(--bg-color); border-radius: 4px; font-size: 0.95em; }
         .markdown-body hr { height: 1px; padding: 0; margin: 24px 0; background-color: var(--border-color); border: 0; }
         .markdown-body code { background-color: var(--table-header); padding: 2px 6px; border-radius: 4px; font-family: monospace; font-size: 0.9em; color: var(--link-color); }
@@ -323,14 +346,18 @@
         @keyframes starTwinkleDark { 0%, 100% { opacity: 1; text-shadow: 0 0 10px rgba(88, 166, 255, 0.6), 0 0 20px rgba(88, 166, 255, 0.2); } 25% { opacity: 0.8; text-shadow: 0 0 12px rgba(88, 166, 255, 0.8), 0 0 24px rgba(88, 166, 255, 0.4); } }
         a.gradient-text:hover, .gradient-text:hover { animation: flowGradient 2.5s linear infinite !important; filter: brightness(1.15) drop-shadow(0 0 6px rgba(253, 145, 121, 0.4)); }
         @keyframes flowGradient { 0% { background-position: 0% 20%; } 100% { background-position: 200% 20%; } }
-        .emoji { -webkit-text-fill-color: currentColor !important; background: none !important; color: currentColor !important; }
+        .emoji { font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Samsung Color Emoji", "Noto Color Emoji", "Android Emoji", "Twemoji Mozilla", "EmojiOne Color", emoji !important; -webkit-text-fill-color: initial !important; background: none !important; }
+        html { position: relative; min-height: 100%; }
+        html::after { content: ""; position: absolute; bottom: 0; left: 0; width: 100%; height: 12px; background-image: linear-gradient(94.23deg, var(--color-nebula-1) 0%, var(--color-nebula-1) 12.41%, var(--color-nebula-2) 52.55%, var(--color-nebula-3) 89.95%, var(--color-nebula-1) 100%); background-size: 200% auto; animation: flowGradient 4.1s linear infinite; z-index: 2025; transition: height 0.5s cubic-bezier(.16,1,.3,1), filter 0.8s cubic-bezier(.16,1,.3,1); pointer-events: none; }
+        html:hover::after { height: 18px; animation: flowGradient 2.5s linear infinite; filter: brightness(1.4) drop-shadow(0 -8px 20px rgba(253, 145, 121, 0.8)) drop-shadow(0 -15px 40px rgba(255, 105, 105, 0.6)) drop-shadow(0 -25px 60px rgba(83, 116, 250, 0.5)); }
+        html:active::after { height: 26px; animation: flowGradient 1.2s linear infinite; filter: brightness(1.8) drop-shadow(0 -15px 35px rgba(253, 145, 121, 1)) drop-shadow(0 -25px 65px rgba(255, 105, 105, 0.9)) drop-shadow(0 -40px 100px rgba(83, 116, 250, 0.8)); }
     </style>
 </head>
 <body>
 
     <header class="header-section">
         <h1>
-            <a href="./" style="color: inherit; text-decoration: none; font-size: inherit; font-weight: inherit;">🇹🇼 <span class="gradient-text">{{ site.title }}</span></a>
+            <a href="./" style="color: inherit; text-decoration: none; font-size: inherit; font-weight: inherit;"><span class="emoji">🇹🇼</span> <span class="gradient-text">{{ site.title }}</span></a>
         </h1>
         <p>{{ site.description }}</p>
         <div style="margin-top: 20px; display: flex; justify-content: center; flex-wrap: wrap; gap: 12px;">
@@ -431,9 +458,10 @@
         document.addEventListener("DOMContentLoaded", function() {
             document.querySelectorAll('.markdown-body h1, .markdown-body h2, .markdown-body h3').forEach(function(heading) {
                 heading.classList.add('gradient-text');
+                heading.innerHTML = heading.innerHTML.replace(/(\p{Emoji_Presentation}|\p{Extended_Pictographic})\uFE0F?/gu, '<span class="emoji">$1</span>');
             });
             document.querySelectorAll('.markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6').forEach(function(heading) {
-                if (heading.id) {
+                if (heading.id && !heading.querySelector('.anchor')) {
                     heading.classList.add('heading-with-anchor');
                     let anchor = document.createElement('a');
                     anchor.className = 'anchor';
@@ -445,11 +473,14 @@
             });
             const keywords = ["Dave Täht", "Täht", "Dave", "Michael", "dtaht", "@mtaht", "Dave’s Guitar", "星塵", "星星", "星辰", "Starstuff", "Star"];
             const escapedKw = keywords.map(k => k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).sort((a, b) => b.length - a.length);
-            const searchRegex = new RegExp("(" + escapedKw.join("|") + ")", "gi");
-            const testRegex = new RegExp("(" + escapedKw.join("|") + ")", "i");
+            const boundaryPrefix = "(?<![a-zA-Z0-9])";
+            const boundarySuffix = "(?![a-zA-Z0-9])";
+            const searchRegex = new RegExp(boundaryPrefix + "(" + escapedKw.join("|") + ")" + boundarySuffix, "gi");
+            const testRegex = new RegExp(boundaryPrefix + "(" + escapedKw.join("|") + ")" + boundarySuffix, "i");
             const matchRegex = new RegExp("^(" + escapedKw.join("|") + ")$", "i");
             const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
                 acceptNode: function(node) {
+                    if (!node.parentNode) return NodeFilter.FILTER_REJECT;
                     if (node.parentNode.classList && node.parentNode.classList.contains('glow-text')) return NodeFilter.FILTER_REJECT;
                     if (['SCRIPT', 'STYLE', 'TITLE', 'NOSCRIPT'].includes(node.parentNode.nodeName)) return NodeFilter.FILTER_REJECT;
                     if (testRegex.test(node.nodeValue)) return NodeFilter.FILTER_ACCEPT;
@@ -462,6 +493,7 @@
                 nodesToReplace.push(currentNode);
             }
             nodesToReplace.forEach(node => {
+                if (!node.parentNode) return;
                 const fragment = document.createDocumentFragment();
                 const parts = node.nodeValue.split(searchRegex);
                 parts.forEach(part => {
